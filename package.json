@@ -1,0 +1,16 @@
+{
+  "name": "disable-honor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild --minify --bundle app.js --outfile=index.js --format=esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "pengu-upl": "^1.0.0"
+  }
+}
